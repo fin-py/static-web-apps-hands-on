@@ -15,11 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v1
       - name: Sphinx Build
         uses: ammaraskar/sphinx-action@master
         with:
-          docs-folder: "./docs"
+          docs-folder: "docs/"
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
