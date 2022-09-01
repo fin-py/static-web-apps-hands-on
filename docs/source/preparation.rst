@@ -8,9 +8,9 @@ VS Codeのインストール
 
 https://code.visualstudio.com/
 
-Visual Studio Code Remote - Containers extensionのインストール
---------------------------------------------------------------
+Dev Containerのインストール
+---------------------------
 
-次の手順にしたがって、devcontainerをインストールします。
+次の手順にしたがって、Dev Container（Remote - Containers extension）をインストールします。
 
 https://code.visualstudio.com/docs/remote/containers#_installation
