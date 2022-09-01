@@ -21,9 +21,9 @@ jobs:
         with:
           docs-folder: "docs/"
           pre-build-command: "pip install -r requirements.txt"
-      - uses: actions/checkout@v2
-        with:
-          submodules: true
+      # - uses: actions/checkout@v2
+      #   with:
+      #     submodules: true
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
