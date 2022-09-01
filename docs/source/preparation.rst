@@ -1,6 +1,14 @@
 事前準備
 ========
 
+前提条件
+--------
+
+本資料は次のアカウントがある前提で進めていきます。
+
+- `Azure <https://azure.microsoft.com/ja-jp/free/>`_
+- `GitHub <https://github.com/>`_
+
 VS Codeのインストール
 ---------------------
 

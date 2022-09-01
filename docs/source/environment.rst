@@ -1,19 +1,35 @@
 環境構築
 ========
 
-:numref:`clone-repository` のコマンドを実行して、ハンズオンのリポジトリをクローンします。
+ハンズオンのリポジトリにアクセスし、 `Use this template` をクリックします（ :numref:`use-this-template` ）。
+
+https://github.com/fin-py/static-web-apps-hands-on
+
+.. figure:: ./images/use-this-template.png
+   :name: use-this-template
+   
+   Use this template
+
+「Create a new repository from static-web-apps-hands-on」の画面で、Repository nameに `static-web-apps-hands-on` を入力し、 `Create repository from template` をクリックします（ :numref:`create-a-new-repository` ）。
+
+.. figure:: ./images/create-a-new-repository.png
+   :name: create-a-new-repository
+   
+   Use this template
+
+:numref:`clone-repository` のコマンドを実行して、ハンズオンのリポジトリをクローンします。 `<your-github-username>` は適宜置き換えてください。
 
 .. code-block:: bash
    :name: clone-repository
    :caption: リポジトリのクローン
 
-   git clone https://github.com/fin-py/static-web-apps-hands-on.git
+   git clone https://github.com/<your-github-username>/static-web-apps-hands-on.git
 
 .. note::
 
    PCにGitがインストールされていない場合はzipファイルをダウンロードして展開します
 
-   https://github.com/fin-py/static-web-apps-hands-on/archive/refs/heads/main.zip
+   https://github.com/<your-github-username>/static-web-apps-hands-on/archive/refs/heads/main.zip
 
 :numref:`launch-vscode` のコマンドを実行してVS Codeを起動します。
 
