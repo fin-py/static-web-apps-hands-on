@@ -11,6 +11,7 @@ Azure Static Web Apps 超入門
 
    preparation
    environment
+   gatsby
 
 Indices and tables
 ==================
