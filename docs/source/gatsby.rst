@@ -107,6 +107,9 @@ https://github.com/new にアクセスして、GitHubリポジトリを作成し
   - サブスクリプション: `Concierge Subscription`
   - リソースグループ: `learn-bcc1d89a-f8ad-44ed-8a36-9a439f3b3f2b`
 
+静的Webアプリの詳細
+  - 名前: アプリの名前を指定します。 有効な文字は a-z (大文字と小文字は区別されません)、0-9、および _ です
+
 ホスティング プラン
   - プランの種類: `Free: 趣味または個人的なプロジェクト用`
 
@@ -125,7 +128,7 @@ Azure Functions とステージングの詳細
   - アプリの場所: デフォルト
   - 出力先: `public`
 
-`確認および作成`` ボタンをクリックします（ :numref:`review-create-button` ）。
+`確認および作成` ボタンをクリックします（ :numref:`review-create-button` ）。
 
 .. figure:: https://docs.microsoft.com/ja-jp/learn/modules/create-deploy-static-webapp-gatsby-app-service/media/review-create-button.png
    :name: review-create-button
@@ -146,16 +149,18 @@ Azure Functions とステージングの詳細
 
    リソースに移動
 
-この段階では、Static Web AppsインスタンスがAzureに作成されていますが、アプリはまだデプロイされていません。 Azure によってリポジトリに作成されるGitHubアクションは自動的に実行され、アプリの最初のビルドとデプロイが実行されますが、完了するまでに数分かかります。
+.. note::
+    
+    この段階では、Static Web AppsインスタンスがAzureに作成されていますが、アプリはまだデプロイされていません。 Azure によってリポジトリに作成されるGitHubActionsは自動的に実行され、アプリの最初のビルドとデプロイが実行されますが、完了するまでに数分かかります。
 
 :numref:`static-app-portal` に示されているリンクをクリックして、ビルドとデプロイ アクションの状態を確認できます。
 
 .. figure:: https://docs.microsoft.com/ja-jp/learn/modules/create-deploy-static-webapp-gatsby-app-service/media/static-app-portal.png
    :name: static-app-portal
 
-   GitHubアクションの確認
+   GitHub Actionsの確認
 
-GitHub アクションによってWebアプリのビルドと発行が完了すると、実行中のアプリを参照して確認できるようになります。
+GitHub ActionsによってWebアプリのビルドと発行が完了すると、実行中のアプリを参照して確認できるようになります。
 
 リソースの概要からURLリンクをクリックして、ブラウザでアプリにアクセスします（ :numref:`static-app-portal-finished` ）。
 
