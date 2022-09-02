@@ -13,8 +13,9 @@ Azure Static Web Apps 超入門
    environment
    gatsby
    sphinx
+   exercise
    clean-up
-
+   
 Indices and tables
 ==================
 
