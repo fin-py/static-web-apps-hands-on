@@ -80,7 +80,7 @@ https://github.com/new にアクセスして、GitHubリポジトリを作成し
    git remote add origin https://github.com/<your-github-username>/gatsby-app.git
    git push -u origin main
 
-MS learnの `演習 - ビルドして Azure Static Web Apps にデプロイする <https://docs.microsoft.com/ja-jp/learn/modules/create-deploy-static-webapp-gatsby-app-service/7-exercise-build-deploy-static-app>`_ にアクセスし、 サンドボックスをアクティブ化` をクリックします（ :numref:`sign-in-to-activate-sandbox` ）。
+MS learnの `演習 - ビルドして Azure Static Web Apps にデプロイする <https://docs.microsoft.com/ja-jp/learn/modules/create-deploy-static-webapp-gatsby-app-service/7-exercise-build-deploy-static-app>`_ にアクセスし、 `サンドボックスをアクティブ化` をクリックします（ :numref:`sign-in-to-activate-sandbox` ）。
 
 .. figure:: ./images/sign-in-to-activate-sandbox.png
    :name: sign-in-to-activate-sandbox
